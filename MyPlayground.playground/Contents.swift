@@ -67,8 +67,43 @@ dictionary.removeValueForKey("computer") //remove entry from dictionary
 print(dictionary) //prints dictionary contents
 
 
+//If Statements
+
+var age = 20
+
+if age >= 18 {
+    
+    print("You can play!")
+    
+} else {
+    
+    print("Sorry, you're too young")
+}
+
+var myName = "Ashley"
+
+if myName == "Ashley" {
+    print("Hi " + myName + " you can play!")
+} else {
+    print("Sorry, " + myName + " you can't play")
+}
 
 
+if myName == "Ashley" && age >= 18 {
+    
+    print("Hi, " + myName + " you can play!")
+}
+
+
+if name == "Ashley" || name == "Rob" {
+    print("Welcome " + name)
+}
+
+var isaMale = true
+
+if isaMale {
+    print ("You're a man")
+}
 
 
 

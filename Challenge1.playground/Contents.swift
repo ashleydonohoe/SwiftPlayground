@@ -33,3 +33,21 @@ var totalCost = items["Pizza"]! + items["Burger"]! + items["Pasta"]!
 
 
 print("The total cost of these items is \(totalCost)")
+
+
+
+//Username and password variables. Check if both are equal to the set value. Then, allow user in. Otherwise, tell the user which is wrong
+
+var username = "user"
+var password = "password"
+
+if username == "user" && password == "password" {
+    print ("You're in!")
+} else if username != "user" && password != "password" {
+        print ("Both your username and password are wrong")
+  
+} else if username == "user" {
+    print("Your password is incorrect")
+} else {
+    print("Your username is wrong")
+}
