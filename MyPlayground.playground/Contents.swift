@@ -106,10 +106,43 @@ if isaMale {
 }
 
 
+//For Loops
+
+for var i = 1; i < 10; i++ {
+    print(i)
+}
 
 
+var arr = [8, 2, 3, 9]
+
+for x in arr { //going through an array to show each
+    print(x)
+}
+
+for (index, value) in arr.enumerate() { //gets values and allows users to do something with array itself
+    arr[index] = value + 1
+    
+}
+
+print(arr)
 
 
+//While Loops
+
+var i = 1
+
+while i < 10 {
+    print(i)
+    i++
+}
 
 
+var myArray = [8, 3, 1, 9, 4, 5, 7] //array of 6 items
+
+var k = 0 //counter serves as index
+
+while k < myArray.count { //keeps going as long as there's an item left in array
+    print(myArray[k])
+    k++
+}
 

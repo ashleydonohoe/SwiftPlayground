@@ -51,3 +51,52 @@ if username == "user" && password == "password" {
 } else {
     print("Your username is wrong")
 }
+
+/*User can guess a number 0 to 5 for how many fingers metaphorically are being held up. Needs to generate a random number between 0 and 5. The user guesses and then tells the user is they're right or wrong. Each time the user guesses, the app generates a new random number.*/
+
+var randomNumber = Int(arc4random_uniform(6))
+
+var userGuess = 2
+
+if userGuess == randomNumber {
+    print ("You're right!")
+} else {
+    print ("Sorry, you didn't get it right!")
+}
+
+//Print even numbers from 2 to 20
+
+for var i = 2; i <= 20; i = i + 2 {
+    print(i)
+}
+
+
+//create an array and take it and half all the values in the array
+
+var arr:[Double] = [9, 292, 28, 88]
+
+for (index, value) in arr.enumerate() {
+    arr[index] = value / 2
+}
+print(arr)
+
+
+//Use while loop to display the first 10 terms of the 5 times table
+
+var i = 1
+
+while i <= 10 {
+    print(i*5)
+    i += 1
+}
+
+//Create array of 7 numbers. Subtract 1 from each of them using a while loop
+
+var myArray = [8, 9, 2, 4, 3, 9, 10]
+
+var x = 0
+
+while x < myArray.count {
+    print(myArray[x] - 1)
+    x++
+}
