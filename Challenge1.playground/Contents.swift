@@ -100,3 +100,24 @@ while x < myArray.count {
     print(myArray[x] - 1)
     x++
 }
+
+//How to tell if number is prime
+
+var myNumber = 29
+
+var isPrime = true
+
+if myNumber == 1 {
+    isPrime = false
+}
+
+if myNumber != 2 && myNumber != 1 {
+for var n = 2; n < myNumber; i++ {
+    if myNumber % n == 0 {
+        isPrime = false
+        break
+        }
+    }
+}
+
+
